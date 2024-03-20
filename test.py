@@ -10,6 +10,9 @@ def svz_multy(a: int, b: int) -> int:
 def svz_div(a: int, b: int) -> int:
   return a / b
 
+x = 5
+a, b, c = 1, 2, 3
+print(svz_exp(x) + svz_multy(x, b) + c)
 print(svz_sum(5, 5))
 print(svz_sum(0, 0))
 print(svz_sum(1, 1))
