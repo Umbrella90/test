@@ -1,11 +1,11 @@
-def test(a: int, b: int) -> int:
+def svz_sum(a: int, b: int) -> int:
   retrun a + b
 
-def test2(a: int) -> int:
-  return a ** 2
+def svz_exp(a: int, b: int = 2) -> int:
+  return a ** b
 
-def test3(a: int, b: int) -> int:
-  return a - b
+def svz_multy(a: int, b: int) -> int:
+  return a * b
 print(test(5, 5))
 print(test(0, 0))
 print(test(1, 1))
